@@ -1,0 +1,107 @@
+.remoteSub {
+    width: calc(90vw - 4px);
+    height: calc(90vh - 4px);
+    display: flex;
+    align-items: center;
+    margin: 5vh 5vw;
+    background-color: rgba(226, 226, 226, 0.28);
+    border-radius: 50px;
+    border: 1px solid rgba(33, 33, 33, 0.53);
+    flex-direction: column;
+
+}
+
+.rowForOne {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*width: calc(100% - 40px);*/
+    height: 50%;
+    width: 100%;
+    /*height:fit-content;*/
+    align-self: flex-start;
+}
+
+.companyImage {
+    max-height: 100%;
+    width: 40%;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all .2s;
+
+}
+
+.companyImage:hover {
+    transform: scale(1.1);
+}
+
+.searchImage {
+    width: 37px;
+    height: 37px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.searchImage:hover, .backImage:hover {
+    opacity: 0.9;
+}
+
+.secRow {
+    display: flex;
+    width: calc(100% - 25px);
+    margin: 0 5px 0 20px;
+    justify-content: space-between;
+    height: 10%;
+    align-items: flex-end;
+}
+
+.backImage {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.search {
+    width: calc(100% - 50px);
+    height: 25px;
+    outline-width: 0;
+    border: 1px solid rgba(84, 84, 84, 0.8);
+    font-size: 15px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.headerRowSub {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: fit-content;
+    align-self: flex-start;
+}
+
+.headerRow {
+    display: flex;
+    width: calc(100% - 40px);
+    height: 10%;
+    align-self: flex-start;
+    padding: 20px 20px;
+}
+
+.middleRow {
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 10px);
+    align-items: center;
+    height: 30%;
+    padding: 0 5px;
+}
+
+.powerImage {
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    object-fit: contain;
+}
+.powerImage:hover{
+    opacity: 0.8;
+}
